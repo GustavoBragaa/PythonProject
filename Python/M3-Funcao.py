@@ -86,7 +86,7 @@ contador(i, f, p)'''
 
 # ----------------------------------------------------------
 
-import time
+'''import time
 from random import randint
 cont = 0
 lst = list()
@@ -102,4 +102,76 @@ for i in range(1, len(lst)+1):
     time.sleep(0.3)
     cont += 1
 print(f'Foram informados {len(lst)} valores')
-print(f'o Maior valor informado foi {max(lst)}')
+print(f'o Maior valor informado foi {max(lst)}')'''
+
+# ----------------------------------------------------------
+
+'''from random import randint
+
+
+def sorteio(lts):
+    qtd = 6
+    for n in range(1, 6):
+        sorteio = randint(1, 10)
+        lts.append(sorteio)
+    print(f'sorteando 5 valores da lista: {lts}')
+
+
+def somaPar():
+    soma = 0
+    for x in lista:
+        if x % 2 == 0:
+            soma += x
+    lista.sort()
+    print(f'Somando os valores pares de {lista}, temos {soma}')
+
+
+lista = list()
+sorteio(lista)
+somaPar()'''
+
+# ----------------------------------------------------------
+
+'''Aula 2'''
+'''Ajuda Interativa'''
+# help()
+# print(input.__doc__)
+
+'''DOCSTRINGS'''
+'''Documentando sua função particular '''
+'''Para documentar sua função, é ne abrir 3 aspas duplas abaixo 
+do inicio da função 'def', apertar enter e descrever oque seu codigo faz'''
+
+# ----------------------------------------------------------
+
+'''PARAMETROS OPCIONAIS'''
+'''Informar na declaração do codigo o valor de 0 para a variavel
+ela serviara como contingencia caso o usuario não informe valor'''
+
+# def somar(a=0, b=0, c=0):
+#   s = a + b + c
+#   print(f'{s}')
+
+
+# somar(1, 2, 3)
+# somar(1, 2)
+
+# ----------------------------------------------------------
+
+'''ESCOPO DE VARIAVEIS'''
+
+# Para usar uma variavel global dentro de funções, supondo que a variavel fora da funcao seja 'a'
+# def funcao():
+#      global a
+
+# ----------------------------------------------------------
+
+'''RETORNO DE VARIAVEIS'''
+
+# def somar(a=0, b=0, c=0):
+#   s = a + b + c
+#   return s
+
+
+# resp = somar(1, 2, 3)
+# print(somar(1, 2, 3))
