@@ -348,3 +348,10 @@ for c, n in enumerate(alunos):
 print()
 print('Você Saiu')'''
 
+# ----------------------------------------------------------
+
+'''for i in range(1, 12, 2):
+    print(('#' * i).center(20))
+for i in range(9, 0, -2):
+     print(('#'*i).center(20))'''
+
