@@ -287,7 +287,8 @@ print(f' você acabou de digitar o numero {n}')'''
 print(notas(10, 9, 9, 8, sit=True))'''
 
 # ----------------------------------------------------------
-from time import sleep
+
+'''from time import sleep
 c = ('\033[m',
      '\033[0;30;41m',  # Vermelho
      '\033[0;30;42m',  # Verd
@@ -323,4 +324,4 @@ while True:
         break
     else:
         ajuda(comando)
-titulo('ATÈ LOGO!', 1)
+titulo('ATÈ LOGO!', 1)'''
