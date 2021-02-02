@@ -40,4 +40,4 @@ def resumo(n, aum=0, red=0):
     print(f'{aum}% de aumento: ', end='')
     print(f'R${aumentar(n, aum):.2f}')
     print(f'{red}% de redução: ', end='')
-    print(f'{diminuir(n,red):.2f}')
+    print(f'{diminuir(n, red):.2f}')

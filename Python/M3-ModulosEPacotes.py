@@ -22,18 +22,18 @@ print(f'o fatorial de {num} é {fat}')'''
 
 # ----------------------------------------------------------
 
-from utilidadesCeV import dado, moeda
+'''from utilidadesCeV import dado, moeda
 
-'''num = float(input('Insira um numero: '))
+num = float(input('Insira um numero: '))
 
 print(utilidadesCeV.aumentar(num))
 print(utilidadesCeV.diminuir(num))
 print(utilidadesCeV.dobro(num))
-print(utilidadesCeV.metade(num))'''
+print(utilidadesCeV.metade(num))
 
 num = dado.leiaDinheiro('Insira um numero: ')
 print(num)
 red = int(input('Quantos % de redução: '))
 aum = int(input('Quantos % de aumento: '))
 
-moeda.resumo(num, aum, red)
+moeda.resumo(num, aum, red)'''
