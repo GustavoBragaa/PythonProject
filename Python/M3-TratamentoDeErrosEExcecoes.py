@@ -35,16 +35,16 @@ else:
         try:
             i = int(input(msg))
         except (ValueError, TypeError):
-            print(f'\033[0;31mERRO: Digite um valor Inteiro!\033[m')
+            print(f'\033[0;3mERRO: Digite um valor Inteiro!\033[m')
             continue
         except KeyboardInterrupt:
             print(f'\033[0;31mUsuario preferiu não informar o numero!\033[m')
             return 0
         else:
-            return i
+            return i'''
 
 
-def leiaFloat(msg):
+'''def leiaFloat(msg):
     while True:
         try:
             r = float(input(msg))
