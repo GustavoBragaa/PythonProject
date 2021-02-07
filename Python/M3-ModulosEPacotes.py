@@ -21,10 +21,10 @@ print(f'o fatorial de {num} é {fat}')'''
 # nome padrão de sintaxe dentro dos pacotes __init__.py
 
 # ----------------------------------------------------------
+import utilidadesCeV
+from utilidadesCeV import dado, moeda
 
-'''from utilidadesCeV import dado, moeda
-
-num = float(input('Insira um numero: '))
+'''num = float(input('Insira um numero: '))
 
 print(utilidadesCeV.aumentar(num))
 print(utilidadesCeV.diminuir(num))

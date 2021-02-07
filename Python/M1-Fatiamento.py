@@ -2,7 +2,7 @@
 # len()  calcula o comprimento da string
 # .count('o') calcula quantas vezes se repete a letra em questão
 # .find('deo') diz em que momento começou as letras em questão, se voltar o valor -1 é pq não existe
-# .rfind('deo') diz qualo ultimo momento aparece as letras em questão, se voltar o valor -1 é pq não existe
+# .rfind('deo') diz qual o ultimo momento aparece as letras em questão, se voltar o valor -1 é pq não existe
 # 'curso' in frase - diz se existe a palavra descrito na frase guardada
 
 # transformação
